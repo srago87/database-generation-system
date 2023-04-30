@@ -1,0 +1,17 @@
+CREATE DATABSE myDB;
+USE myDB;
+
+CREATE TABLE [tableA] (
+	[colA1] INTEGER NOT NULL, 
+	[colA2] VARCHAR(45) NULL, 
+	PRIMARY KEY ([colA1])
+);
+
+
+
+CREATE TABLE [tableB] (
+	[colB1] INTEGER NULL, 
+	FOREIGN KEY([colB1]) REFERENCES [tableA] ([colA1])
+);
+
+

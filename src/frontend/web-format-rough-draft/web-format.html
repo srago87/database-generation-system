@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: 2px 2px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #2e2e2e;
+color: white;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #989898;}
+
+.button {
+    border: none;
+    background-color: #f1f1f1;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: left;
+  }
+.button:hover {background-color: #2e2e2e; display: block;
+    padding: 16px; min-width: 120px; color: white;}
+
+</style>
+</head>
+<body>
+
+<h2>Sonalyst Database Generation System</h2>
+
+<div class="dropdown">
+    <button class="dropbtn">File</button>
+    <div class="dropdown-content">
+        <button class = "button">Create New</button>
+        <button class = "button">Open</button>
+        <button class = "button">Download</button>
+        <button class = "button">Make Copy</button>
+        <button class = "button">Page Setup</button>
+        <button class = "button">Print</button>
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="dropbtn">Edit</button>
+    <div class="dropdown-content">
+        <button class = "button">Add</button>
+        <button class = "button">Delete</button>
+        <button class = "button">Name</button>
+        <button class = "button">Define</button>
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="dropbtn">Tools</button>
+    <div class="dropdown-content">
+      <button class = "button">Count</button>
+      <button class = "button">Spell Check</button>
+    </div>
+  </div>
+
+<div class="dropdown">
+  <button class="dropbtn">Run</button>
+  <div class="dropdown-content">
+    <button class = "button">Current</button>
+    <button class = "button">All</button>
+  </div>
+</div>
+
+<div class="dropdown">
+    <button class="dropbtn">Export</button>
+    <div class="dropdown-content">
+      <button class = "button">MySQL</button>
+      <button class = "button">NoSQL</button>
+      <button class = "button">Oracle</button>
+      <button class = "button">DDL</button>
+    </div>
+  </div>
+
+<div class="dropdown">
+  <button class="dropbtn">Help</button>
+  <div class="dropdown-content">
+    <button class = "button">Search</button>
+  </div>
+</div>  
+
+</body>
+</html>

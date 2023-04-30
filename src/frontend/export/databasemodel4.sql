@@ -1,0 +1,17 @@
+CREATE DATABASE myDB;
+USE DATABASE myDB;
+
+CREATE TABLE "tableA" (
+	"colA1" INTEGER, 
+	"colA2" VARCHAR2(45 CHAR), 
+	PRIMARY KEY ("colA1")
+);
+
+
+
+CREATE TABLE "tableB" (
+	"colB1" INTEGER, 
+	FOREIGN KEY("colB1") REFERENCES "tableA" ("colA1")
+);
+
+

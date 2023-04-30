@@ -1,0 +1,124 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page-content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#control-panel{
+    border: 3px solid black;
+    border-radius: 7px;
+    height: 354.33px;
+    background-color: #958995;
+}
+#control-panel > button{
+    cursor: pointer;
+    background-color: white;
+    font-size: 19px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+#control-panel > button:hover{
+    background-color: #f2f2f2;
+}
+#control-panel > h3{
+    font-weight: bold;
+}
+#control-panel > label{
+    font-weight: bold;
+    color: black;
+}
+#control-panel > label:hover{
+    color: #f2f2f2;
+}
+#control-panel > label.selected{
+    color: #f2f2f2;
+}
+#tables-container{
+    height: 100%;
+    min-width: 800px;
+}
+.tdiv{
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 7px;
+    background-color: #4c444e;
+    margin-top: 30px;
+}
+.remove-table-btn{
+    margin-left: 350px;
+    background-color: #4c444e;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.remove-table-btn:hover{
+    color:#f2f2f2;
+}
+.table-name-label{
+    margin-left: 9px;
+    margin-right: 3px;
+}
+.tdiv > table{
+    margin: auto;
+    margin-top: 20px;
+}
+.tdiv > table > tr > td{
+    color: white;
+    padding: 5px;
+}
+#db-name-label{
+    font-size: 22px;
+    font-weight: bold;
+}
+.table-name-label{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+ #fk-container{
+    height: 100%;
+    width: 400px;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: #958995;
+    border-radius: 7px;
+ }
+ .fk-div{
+    display: flex;
+ }
+ #refresh-fks-btn{
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #958995;
+    margin-bottom: 10px;
+ }
+ #refresh-fks-btn:hover{
+    color: #f2f2f2;
+ }
+ .remove-fk-btn{
+    border: 2px solid black;
+    border-radius: 7px;
+    width: 40px;
+    cursor: pointer;
+    background-color: white;
+ }
+ .remove-fk-btn:hover{
+    background-color: #f2f2f2;
+ }
+p{
+    max-width: 500px;
+}
+.indent{
+    margin-left: 32px;
+}
